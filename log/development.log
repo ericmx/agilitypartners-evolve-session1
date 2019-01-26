@@ -1,0 +1,3214 @@
+Started GET "/result/add" for 127.0.0.1 at 2019-01-22 09:53:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/result/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-22 09:53:30 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 14ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-22 09:53:30 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (5.4ms)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-22 09:53:32 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate" for 127.0.0.1 at 2019-01-22 09:53:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate" for 127.0.0.1 at 2019-01-22 09:53:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-22 09:53:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 09:53:36 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 648ms (Views: 645.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=2&commit=Add%21" for 127.0.0.1 at 2019-01-22 09:53:40 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 09:54:42 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=2&commit=Add%21" for 127.0.0.1 at 2019-01-22 09:54:45 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 09:59:41 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=9888&second_number=9&commit=Add%21" for 127.0.0.1 at 2019-01-22 09:59:46 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"9888", "second_number"=>"9", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 09:59:50 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=6&commit=Add%21" for 127.0.0.1 at 2019-01-22 09:59:58 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"6", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=9888&second_number=9&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:03:36 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"9888", "second_number"=>"9", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 10:05:07 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 10:05:12 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=1.2&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:05:15 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1.2", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 10:05:17 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:08:33 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:08:36 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:10:16 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (114.8ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `together' for #<#<Class:0x007fe6a4811ce8>:0x007fe6a48113d8>):
+    1: <h1>Calculate#results</h1>
+    2: 
+    3: <%= The two numbers added together are: label_tag( @result) %>
+  
+app/views/calculate/results.html.erb:3:in `_app_views_calculate_results_html_erb__2000026503081459144_70314289566540'
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:10:43 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:10:57 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 10:11:02 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 17:06:18 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 210ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:06:27 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "1":String):
+    4:   <%= number_field_tag(:first_number, "Enter the first number", step: :any) %>
+    5:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+    6:   <%= submit_tag("Add!") %>
+    7:   <%= button_tag(:number_one, "1") %>
+    8: <% end  %>
+    9: 
+   10: <!--Need to add buttons, unique ID for each button, pass input
+  
+app/views/calculate/add.html.erb:7:in `block in _app_views_calculate_add_html_erb__3409224531637651074_70112947311680'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__3409224531637651074_70112947311680'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:06:27 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "1":String):
+    4:   <%= number_field_tag(:first_number, "Enter the first number", step: :any) %>
+    5:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+    6:   <%= submit_tag("Add!") %>
+    7:   <%= button_tag(:number_one, "1") %>
+    8: <% end  %>
+    9: 
+   10: <!--Need to add buttons, unique ID for each button, pass input
+  
+app/views/calculate/add.html.erb:7:in `block in _app_views_calculate_add_html_erb__3409224531637651074_70112939093920'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__3409224531637651074_70112939093920'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:08:47 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:08:59 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/add.html.erb:8: syntax error, unexpected ',', expecting ')'
+end=(  button_tag ("Checkout", data: { disable_with: 1 } ) )
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/add.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+ data: { disable_with: 1 } ) );@output_buffer.safe_append='
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/add.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/calculate/add.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/calculate/add.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+app/views/calculate/add.html.erb:16: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=5&second_number=7.989&commit=Add%21" for 127.0.0.1 at 2019-01-22 17:09:47 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"7.989", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:09:56 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (162.4ms)
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `button' for #<#<Class:0x007f88db21d8b8>:0x007f88dd83a848>
+Did you mean?  button_to):
+     5:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+     6:   <%= submit_tag("Add!") %>
+     7: 
+     8:   <%=  button("1", :button1) %>
+     9: 
+    10: <% end  %>
+    11: 
+  
+app/views/calculate/add.html.erb:8:in `block in _app_views_calculate_add_html_erb__3409224531637651074_70112904337640'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__3409224531637651074_70112904337640'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:09:57 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (130.2ms)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `button' for #<#<Class:0x007f88db21d8b8>:0x007f88e2c12178>
+Did you mean?  button_to):
+     5:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+     6:   <%= submit_tag("Add!") %>
+     7: 
+     8:   <%=  button("1", :button1) %>
+     9: 
+    10: <% end  %>
+    11: 
+  
+app/views/calculate/add.html.erb:8:in `block in _app_views_calculate_add_html_erb__3409224531637651074_70112948295040'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__3409224531637651074_70112948295040'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:10:12 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (128.1ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `button1_path' for #<#<Class:0x007f88db21d8b8>:0x007f88e2b40a38>
+Did you mean?  button_to):
+     5:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+     6:   <%= submit_tag("Add!") %>
+     7: 
+     8:   <%=  button_to("1", :button1) %>
+     9: 
+    10: <% end  %>
+    11: 
+  
+app/views/calculate/add.html.erb:8:in `block in _app_views_calculate_add_html_erb__3409224531637651074_70112947868040'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__3409224531637651074_70112947868040'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:10:22 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=&second_number=&authenticity_token=QeHjsgIZCBxokxsWrIAdsrkiqaZ07Xufl5Onq3WYZasQwc5qZc%2F9SbnZQx9KA%2Bl4pe0PqnVRq4PhnPcqh036Mg%3D%3D" for 127.0.0.1 at 2019-01-22 17:10:23 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "authenticity_token"=>"QeHjsgIZCBxokxsWrIAdsrkiqaZ07Xufl5Onq3WYZasQwc5qZc/9SbnZQx9KA+l4pe0PqnVRq4PhnPcqh036Mg=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:10:26 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:05 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:08 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:11 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 44ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:20 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=&second_number=&authenticity_token=Mmo%2FT%2BLVKQn72otp5yV2xh2NP%2FvhAuZJ8P5v229cYO1jShKXhQPcXCqQ02ABpoIMAUKZ9%2BC%2BNlWG8T9anYn%2FdA%3D%3D" for 127.0.0.1 at 2019-01-22 17:11:21 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "authenticity_token"=>"Mmo/T+LVKQn72otp5yV2xh2NP/vhAuZJ8P5v229cYO1jShKXhQPcXCqQ02ABpoIMAUKZ9+C+NlWG8T9anYn/dA=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:23 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/add" for 127.0.0.1 at 2019-01-22 17:11:28 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:30:37 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 198ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:31:07 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (136.0ms)
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `button' for #<#<Class:0x007faa244596a8>:0x007faa2082aee8>
+Did you mean?  button_to):
+     8: 
+     9:   <%=  button_to("0") %>
+    10: 
+    11:   <%= button do
+    12:   content_tag(:strong, 'Ask me!')
+    13:   end
+    14:   %>
+  
+app/views/calculate/add.html.erb:11:in `block in _app_views_calculate_add_html_erb__2467434414441992968_70184333302840'
+app/views/calculate/add.html.erb:3:in `_app_views_calculate_add_html_erb__2467434414441992968_70184333302840'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:40:56 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 174ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=&second_number=&authenticity_token=kVaeHr%2BvUQx2ptdtY6Ryrq7Ium5ftOXbAZl8Smw%2BWDPAdrPG2HmkWafsj2SFJ4ZksgccYl4INcd3lizLnuvHqg%3D%3D" for 127.0.0.1 at 2019-01-23 09:40:58 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "authenticity_token"=>"kVaeHr+vUQx2ptdtY6Ryrq7Ium5ftOXbAZl8Smw+WDPAdrPG2HmkWafsj2SFJ4ZksgccYl4INcd3lizLnuvHqg=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:41:00 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 45ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:41:22 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&commit=Add%21&authenticity_token=XtRi4PAJl5FOq0iwNWkJkHyJiIyod5v%2FSp6%2F5WgIPswP9E84l99ixJ%2FhELnT6v1aYEYugKnLS%2BM8ke9kmt2hVQ%3D%3D" for 127.0.0.1 at 2019-01-23 09:41:25 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Add!", "authenticity_token"=>"XtRi4PAJl5FOq0iwNWkJkHyJiIyod5v/Sp6/5WgIPswP9E84l99ixJ/hELnT6v1aYEYugKnLS+M8ke9kmt2hVQ=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:41:27 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:53:50 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&commit=Add%21&authenticity_token=BKmGHHSY35HqDRIiI4OOix99rBDeJ2XM8ClUEJfAhjhViavEE04qxDtHSivFAHpBA7IKHN%2BbtdCGJgSRZRUZoQ%3D%3D" for 127.0.0.1 at 2019-01-23 09:53:52 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Add!", "authenticity_token"=>"BKmGHHSY35HqDRIiI4OOix99rBDeJ2XM8ClUEJfAhjhViavEE04qxDtHSivFAHpBA7IKHN+btdCGJgSRZRUZoQ=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:53:54 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:54:04 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=&commit=Add%21&authenticity_token=1A0A25Ng%2B5wKnAwilE%2Fs3NutNVDu3KBoRX4AbA4nM%2BaFLS0D9LYOydvWVCtyzBgWx2KTXO9gcHQzcVDt%2FPKsfw%3D%3D" for 127.0.0.1 at 2019-01-23 09:54:06 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"", "commit"=>"Add!", "authenticity_token"=>"1A0A25Ng+5wKnAwilE/s3NutNVDu3KBoRX4AbA4nM+aFLS0D9LYOydvWVCtyzBgWx2KTXO9gcHQzcVDt/PKsfw=="}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 09:54:10 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 37ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:00:57 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=1.2&commit=Subtract%21" for 127.0.0.1 at 2019-01-23 10:01:00 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1.2", "commit"=>"Subtract!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:01:02 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=1&commit=Add%21" for 127.0.0.1 at 2019-01-23 10:11:37 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "commit"=>"Add!"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:25:18 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `deep_stringify_keys' for "+":String):
+     7: 
+     8:   <%= number_field_tag(:first_number, 'Enter the first number', step: :any) %>
+     9:   <%= number_field_tag(:second_number, 'Enter the second number', step: :any) %>
+    10:   <%= submit_tag('calculator_action', '+') %>
+    11:   <%= submit_tag('calculator_action', '-') %>
+    12:   submit_tag "Save", data: { confirm: "Are you sure?" }
+    13:   <%= hidden_field_tag "addorsubtract", @addorsubtract %>
+  
+app/views/calculate/add.html.erb:10:in `block in _app_views_calculate_add_html_erb__36554039560184888_70137606486280'
+app/views/calculate/add.html.erb:6:in `_app_views_calculate_add_html_erb__36554039560184888_70137606486280'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:25:40 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `deep_stringify_keys' for "+":String):
+     7: 
+     8:   <%= number_field_tag(:first_number, "Enter the first number", step: :any) %>
+     9:   <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+    10:   <%= submit_tag(:first_number, "+") %>
+    11:   <%= submit_tag(:subtraction_action, "-") %>
+    12: <%=submit_tag "Save", data: { confirm: "Are you sure?" } %>
+    13:   <%= hidden_field_tag "addorsubtract", @addorsubtract %>
+  
+app/views/calculate/add.html.erb:10:in `block in _app_views_calculate_add_html_erb__36554039560184888_70137638389460'
+app/views/calculate/add.html.erb:6:in `_app_views_calculate_add_html_erb__36554039560184888_70137638389460'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:25:51 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=&second_number=&commit=Save&addorsubtract=" for 127.0.0.1 at 2019-01-23 10:25:56 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "commit"=>"Save", "addorsubtract"=>""}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:25:57 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=&second_number=&commit=%2B&addorsubtract=" for 127.0.0.1 at 2019-01-23 10:25:58 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "commit"=>"+", "addorsubtract"=>""}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:28:19 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:31:12 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=2&commit=%2B" for 127.0.0.1 at 2019-01-23 10:31:15 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "commit"=>"+"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:32:05 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=2&commit=%2B" for 127.0.0.1 at 2019-01-23 10:32:08 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "commit"=>"+"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:32:30 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/results?utf8=%E2%9C%93&first_number=1&second_number=2&commit=%2B" for 127.0.0.1 at 2019-01-23 10:32:32 -0500
+Processing by CalculateController#results as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "commit"=>"+"}
+  Rendering calculate/results.html.erb within layouts/application
+  Rendered calculate/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:41:01 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/subtract" for 127.0.0.1 at 2019-01-23 10:41:02 -0500
+Processing by CalculateController#subtract as HTML
+  Rendering calculate/subtract.html.erb within layouts/application
+  Rendered calculate/subtract.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:44:58 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 10:45:01 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:45:03 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:45:03 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:49:18 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:49:34 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:49:36 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:49:49 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:51:00 -0500
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/calculate/subtract?first_num=first_number&second_num=second_number" for 127.0.0.1 at 2019-01-23 10:51:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/subtract"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:54:07 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 10:54:37 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:04:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:04:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 11:05:03 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:05:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:05:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:05:13 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"/calculate/add", :controller=>"calculate"}):
+    10:   <%= button_to("+", calculate_add_path, method: :get, params: {first_num: :first_number, second_num: :second_number} )%>
+    11:   <%= button_to("-", calculate_subtract_path, method: :get, params: {first_num: :first_number, second_num: :second_number} )%>
+    12: 
+    13:   <%= button_to( 'pdf', { :action => calculate_add_path}, :method => :get) %>
+    14: 
+    15: 
+    16: <% end  %>
+  
+app/views/calculate/calculate.html.erb:13:in `block in _app_views_calculate_calculate_html_erb__1711382630783523927_70137647646260'
+app/views/calculate/calculate.html.erb:6:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137647646260'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:05:27 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 11:05:30 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:05:32 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 45ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:16 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:23 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:25 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:30 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:43 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:45 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:06:48 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:10 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:12 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:17 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:40 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 11:07:43 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:45 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:56 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:07:56 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.7ms)
+  Rendered calculate/calculate.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:09:57 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:09:57 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+  Rendered calculate/calculate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 46ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/subtract?num1=first_number&num2=second_number" for 127.0.0.1 at 2019-01-23 11:09:59 -0500
+Processing by CalculateController#subtract as HTML
+  Parameters: {"num1"=>"first_number", "num2"=>"second_number"}
+  Rendering calculate/subtract.html.erb within layouts/application
+  Rendered calculate/subtract.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:12:39 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/subtract?num1=first_number&num2=second_number" for 127.0.0.1 at 2019-01-23 11:12:41 -0500
+Processing by CalculateController#subtract as HTML
+  Parameters: {"num1"=>"first_number", "num2"=>"second_number"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_f' for :num1:Symbol
+Did you mean?  to_s):
+  
+app/controllers/calculate_controller.rb:7:in `subtract'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:12:54 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:12:54 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/subtract?num1=first_number&num2=second_number" for 127.0.0.1 at 2019-01-23 11:12:56 -0500
+Processing by CalculateController#subtract as HTML
+  Parameters: {"num1"=>"first_number", "num2"=>"second_number"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `-' for :num1:Symbol):
+  
+app/controllers/calculate_controller.rb:7:in `subtract'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:14:57 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:14:58 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 11:15:00 -0500
+Processing by CalculateController#add as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:15:00 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+  Rendered calculate/calculate.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 47ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:16:36 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 11:16:36 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 11:16:38 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:16:46 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:16:46 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:16:48 -0500
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:16:48 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#add as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:19:48 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:20:04 -0500
+Processing by CalculateController#add as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:20:04 -0500
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:21:32 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:21:32 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:21:34 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:22:22 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:22:22 -0500
+Processing by CalculateController#add as HTML
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 46ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add?mynum=2" for 127.0.0.1 at 2019-01-23 14:22:33 -0500
+Processing by CalculateController#add as HTML
+  Parameters: {"mynum"=>"2"}
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:28:52 -0500
+Processing by CalculateController#add as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:28:52 -0500
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:33:04 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:42:53 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:42:53 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (9.3ms)
+  Rendered calculate/calculate.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "Enter the first number":String):
+  
+ActionView::Template::Error (undefined method `stringify_keys' for "Enter the first number":String):
+     5: 
+     6: 
+     7: <p>
+     8:   <%= number_field_tag(:first_num, params[:first_number], "Enter the first number") %>
+     9: 
+    10:   <%= number_field_tag(:second_number, params[:second_number], "Enter the second number") %>
+    11: 
+     5: 
+     6: 
+     7: <p>
+     8:   <%= number_field_tag(:first_num, params[:first_number], "Enter the first number") %>
+     9: 
+    10:   <%= number_field_tag(:second_number, params[:second_number], "Enter the second number") %>
+    11: 
+  
+  
+app/views/calculate/calculate.html.erb:8:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137630876200'
+app/views/calculate/calculate.html.erb:8:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137630876200'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:43:50 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stringify_keys' for nil:NilClass):
+     5: 
+     6: 
+     7: <p>
+     8:   <%= number_field_tag(:first_num, "Enter the first number", params[:first_number]) %>
+     9: 
+    10:   <%= number_field_tag(:second_number,  "Enter the second number", params[:second_number] ) %>
+    11: 
+  
+app/views/calculate/calculate.html.erb:8:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137640115460'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:45:05 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:45:09 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:45:30 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:45:32 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:47:25 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:47:26 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:47:28 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:47:28 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.6ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 53ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:48:12 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:48:50 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:48:50 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+Processing by CalculateController#calculate as HTML
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:48:53 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 14:49:24 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:52:12 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:52:12 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/add" for 127.0.0.1 at 2019-01-23 14:52:15 -0500
+Processing by CalculateController#add as HTML
+  Parameters: {"authenticity_token"=>"GsYS9SDBfmFdrePqx5ejq5gOZCUUdxsTRDp2sNCKAcJL5j8tRxeLNIznu+MhFFdhhMHCKRXLyw8yNSYxIl+eWw=="}
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:55:08 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:55:08 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (3.0ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  Rendered calculate/calculate.html.erb within layouts/application (2.4ms)
+  
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+ActionView::Template::Error (No route matches {:action=>"results", :controller=>"calculate"}):
+  
+     7: <p>
+     8:   
+     9: 
+    10:   <%= form_tag( {action: "results"}, method: "get") do %>
+    11:     <%= number_field_tag(:first_number, "Enter the first number", step: :any) %>
+    12:     <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+    13:     <%= submit_tag("Add!") %>
+ActionView::Template::Error (No route matches {:action=>"results", :controller=>"calculate"}):
+  
+     7: <p>
+     8:   
+     9: 
+    10:   <%= form_tag( {action: "results"}, method: "get") do %>
+    11:     <%= number_field_tag(:first_number, "Enter the first number", step: :any) %>
+    12:     <%= number_field_tag(:second_number, "Enter the second number", step: :any) %>
+    13:     <%= submit_tag("Add!") %>
+app/views/calculate/calculate.html.erb:10:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137640176880'
+  
+app/views/calculate/calculate.html.erb:10:in `_app_views_calculate_calculate_html_erb__1711382630783523927_70137640176880'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:55:17 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:58:40 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 14:58:40 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add?utf8=%E2%9C%93&first_number=1&second_number=2&addition=%2B" for 127.0.0.1 at 2019-01-23 15:00:12 -0500
+Processing by CalculateController#add as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "addition"=>"+"}
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 15:00:15 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 46ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:30:56 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:30:58 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:00 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:31:07 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:07 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 40ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:31:47 -0500
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:47 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:31:49 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:50 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:53 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&addition=%2B" for 127.0.0.1 at 2019-01-23 16:31:54 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 16:31:56 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 16:32:06 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&addition=%2B" for 127.0.0.1 at 2019-01-23 16:32:07 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 16:32:07 -0500
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "addition"=>"+"}
+Processing by CalculateController#calculate as HTML
+Redirected to http://localhost:3000add
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:30 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:30 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (3.3ms)
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:31 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+Processing by CalculateController#calculate as HTML
+  Rendered calculate/calculate.html.erb within layouts/application (0.5ms)
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 266ms (Views: 254.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 249ms (Views: 246.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 108ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 16:32:34 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&addition=%2B" for 127.0.0.1 at 2019-01-23 16:32:36 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 16:32:38 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:42 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:42 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+  Rendered calculate/calculate.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:32:45 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=5&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:32:48 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:33:31 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 16:33:34 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000/add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 16:33:34 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+Started GET "/add" for 127.0.0.1 at 2019-01-23 16:33:34 -0500
+  
+  Rendering calculate/calculate.html.erb within layouts/application
+ActionController::RoutingError (No route matches [GET] "/add"):
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 16:33:37 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=5&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:42:23 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000/add
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:42:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:42:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-23 17:42:27 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ericmay/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 17:42:28 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate" for 127.0.0.1 at 2019-01-23 17:42:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate" for 127.0.0.1 at 2019-01-23 17:42:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 17:42:34 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:42:34 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:42:35 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&addition=%2B" for 127.0.0.1 at 2019-01-23 17:42:38 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "addition"=>"+"}
+Redirected to http://localhost:3000/add
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:42:38 -0500
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:42:38 -0500
+  Rendering calculate/calculate.html.erb within layouts/application
+  
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:42:41 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:42:53 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000/add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:42:53 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&addition=%2B" for 127.0.0.1 at 2019-01-23 17:43:08 -0500
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:43:15 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=4&second_number=4&addition=%2B" for 127.0.0.1 at 2019-01-23 17:43:22 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"4", "second_number"=>"4", "addition"=>"+"}
+Redirected to http://localhost:3000/add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:43:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/add" for 127.0.0.1 at 2019-01-23 17:46:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/add"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:02 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=&second_number=&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:03 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=&second_number=&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:04 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=&second_number=&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:07 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"", "second_number"=>"", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:08 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:10 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:14 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:16 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:18 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:32 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:47:34 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000/calculate/add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:47:34 -0500
+Processing by CalculateController#calculate as HTML
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 17:47:34 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=5&second_number=5&addition=%2B" for 127.0.0.1 at 2019-01-23 17:48:02 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"5", "second_number"=>"5", "addition"=>"+"}
+Redirected to http://localhost:3000/calculate/add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/add" for 127.0.0.1 at 2019-01-23 17:48:02 -0500
+Processing by CalculateController#add as HTML
+  Rendering calculate/add.html.erb within layouts/application
+  Rendered calculate/add.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:50:06 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=9.0&second_number=8&addition=%2B" for 127.0.0.1 at 2019-01-23 17:50:11 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"9.0", "second_number"=>"8", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=9.0&second_number=8&addition=%2B" for 127.0.0.1 at 2019-01-23 17:54:26 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"9.0", "second_number"=>"8", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=9.0&second_number=8&addition=%2B" for 127.0.0.1 at 2019-01-23 17:55:34 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"9.0", "second_number"=>"8", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:56:00 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:00 -0500
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:56:18 -0500
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:18 -0500
+Processing by CalculateController#calculate as HTML
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+Redirected to http://localhost:3000add
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:34 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:36 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/calculate/calculate"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:50 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:56:52 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+Redirected to http://localhost:3000add
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:56:52 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:57:43 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:57:59 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:58:02 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:58:02 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:58:05 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:09 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&addition=%2B" for 127.0.0.1 at 2019-01-23 17:59:11 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:13 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:27 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=2&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:28 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=11&second_number=21&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:31 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"11", "second_number"=>"21", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:59:35 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-23 17:59:36 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:39 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&addition=%2B" for 127.0.0.1 at 2019-01-23 17:59:41 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 17:59:42 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 18:00:24 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=1&subtraction=-" for 127.0.0.1 at 2019-01-23 18:00:26 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"1", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 18:00:28 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 18:00:38 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 18:00:38 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=12&subtraction=-" for 127.0.0.1 at 2019-01-23 18:01:05 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"12", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=14&second_number=12&addition=%2B" for 127.0.0.1 at 2019-01-23 18:01:10 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"14", "second_number"=>"12", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=14&second_number=133&subtraction=-" for 127.0.0.1 at 2019-01-23 18:01:13 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"14", "second_number"=>"133", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=14&second_number=133&subtraction=-" for 127.0.0.1 at 2019-01-24 09:21:00 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"14", "second_number"=>"133", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 221ms (Views: 209.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 09:21:06 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 09:21:08 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 09:22:01 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 09:22:01 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 10:00:22 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"calculate", :controller=>"calculator", :method=>"post"}):
+    20: </p>
+    21: 
+    22: 
+    23: <%= form_tag(controller: "calculator", action:"calculate", method: "post") do %>
+    24:   <%= label_tag(:x, "X:") %>
+    25:   <%= text_field_tag(:x) %>
+    26:   <%= label_tag(:y, "Y:") %>
+  
+app/views/calculate/calculate.html.erb:23:in `_app_views_calculate_calculate_html_erb___2947774109265097823_70223597631540'
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 10:00:40 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 10:01:33 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:54:37 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:54:39 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:54:40 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:35 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:38 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:39 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:40 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:43 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:46 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:47 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:48 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:51 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:52 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:55:54 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:58 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&addition=%2B" for 127.0.0.1 at 2019-01-24 19:55:59 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:56:00 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:56:39 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:56:51 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 19:57:04 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 20:04:51 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')'
+ue => 0, :type => 'button',  );
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')'
+app/views/calculate/calculate.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/calculate/calculate.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=100&second_number=-2&subtraction=-" for 127.0.0.1 at 2019-01-24 20:05:04 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"100", "second_number"=>"-2", "subtraction"=>"-"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+ffer.append=( button_tag ("0", :name => 'num_0', :value => 0
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+on_tag ("0", :name => 'num_0', :value => 0, :type => 'button
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+ue => 0, :type => 'button')  );
+                              ^):
+  
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:05:19 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+ffer.append=( button_tag ("0", :name => 'num_0', :value => 0
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+on_tag ("0", :name => 'num_0', :value => 0, :type => 'button
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+ue => 0, :type => 'button')  );
+                              ^):
+  
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:05:19 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+ffer.append=( button_tag ("0", :name => 'num_0', :value => 0
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+on_tag ("0", :name => 'num_0', :value => 0, :type => 'button
+                              ^
+/Users/ericmay/Development/rails_course/my_calculator/app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+ue => 0, :type => 'button')  );
+                              ^):
+  
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ',', expecting ')'
+app/views/calculate/calculate.html.erb:23: syntax error, unexpected ')', expecting keyword_end
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:05:47 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:07:15 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:07:26 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:07:36 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:15:26 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-24 20:15:56 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-25 13:05:18 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 75ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-26 08:05:09 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 215ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate?utf8=%E2%9C%93&first_number=1&second_number=3&addition=%2B" for 127.0.0.1 at 2019-01-26 08:05:14 -0500
+Processing by CalculateController#calculate as HTML
+  Parameters: {"utf8"=>"✓", "first_number"=>"1", "second_number"=>"3", "addition"=>"+"}
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculate/calculate" for 127.0.0.1 at 2019-01-26 08:05:15 -0500
+Processing by CalculateController#calculate as HTML
+  Rendering calculate/calculate.html.erb within layouts/application
+  Rendered calculate/calculate.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
